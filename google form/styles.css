@@ -1,0 +1,109 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('image.png'); /* Replace 'image.png' with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Full height registration page */
+  .registration-page {
+    width: 100%;
+    height: 100vh; /* Make sure the registration page takes up the full height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content at the top */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Slight dark background to contrast with the form */
+  }
+  
+  .content {
+    text-align: left; /* Align text to the left for the form */
+    background-color: rgba(99, 96, 96, 0.8); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0.5px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Increased max-width for more form space */
+    width: 100%;
+    height: 80%; /* Let the form take 80% of the page's height */
+    overflow-y: auto; /* Allow scrolling if content exceeds the height */
+  }
+  
+  h2 {
+    margin-bottom: 15px; /* Space between the company name and the paragraph */
+  }
+  
+  p {
+    margin-bottom: 20px; /* Space between the paragraph and the button */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the registration form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Group label and input in the same box */
+  .input-group {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for input boxes */
+  }
+  
+  label {
+    display: block; /* Ensure the label is on top */
+    font-size: 14px;
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #b4aaaa;
+    border-radius: 4px;
+    width: 100%; /* Ensure inputs take the full width of the container */
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Styling for submit button */
+  button[type="submit"] {
+    background-color: #007BFF;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  

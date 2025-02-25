@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="registration-page">
+    <div class="content">
+      <h2>Visionary Interns Club</h2>
+
+      <p>www.elfinityfoundation.org</p>
+      <form id="registrationForm">
+        <label for="name">Candidate Name:-</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        
+        <label for="email">Email:-</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="phone">Contact Number:-</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="address">Address:-</label>
+        <textarea id="address" name="address" placeholder="Enter your address" rows="4" required></textarea> 
+
+        <label for="name">College Name:-</label>
+        <textarea id="text" name="name" placeholder="Enter your college name" rows="2" required></textarea>
+
+        <label for="name">Department:-</label>
+        <textarea id="text" name="address" placeholder="Enter your Department" required></textarea>
+
+        <label for="name">Specified Technology or Domain:-</label>
+        <textarea id="text" name="Domain" placeholder="Enter your Domain" required></textarea>
+
+        <label for="name">Duration:-</label>
+        <textarea id="number" name="Duration" placeholder="Enter your Duration" required></textarea>
+        
+        <label for="address">Resume:-</label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx, .txt" required>
+
+        <label for="address">LinkedIn profile:-</label>
+        <input type="url" id="linkedin" name="linkedin" placeholder="Enter your LinkedIn profile URL" required>
+
+        <label for="name">Referred By:-</label>
+        <textarea id="text" name="name" placeholder="Enter your Referred By" required></textarea>
+
+        <button type="reset">Clear</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
